@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/MovieData/static/css/main.fb29642d.chunk.css",
+    "main.js": "/MovieData/static/js/main.f6ac9cd5.chunk.js",
+    "main.js.map": "/MovieData/static/js/main.f6ac9cd5.chunk.js.map",
+    "runtime-main.js": "/MovieData/static/js/runtime-main.0369bfee.js",
+    "runtime-main.js.map": "/MovieData/static/js/runtime-main.0369bfee.js.map",
+    "static/js/2.e7602c3c.chunk.js": "/MovieData/static/js/2.e7602c3c.chunk.js",
+    "static/js/2.e7602c3c.chunk.js.map": "/MovieData/static/js/2.e7602c3c.chunk.js.map",
+    "static/js/3.d647fad9.chunk.js": "/MovieData/static/js/3.d647fad9.chunk.js",
+    "static/js/3.d647fad9.chunk.js.map": "/MovieData/static/js/3.d647fad9.chunk.js.map",
+    "index.html": "/MovieData/index.html",
+    "static/css/main.fb29642d.chunk.css.map": "/MovieData/static/css/main.fb29642d.chunk.css.map",
+    "static/js/2.e7602c3c.chunk.js.LICENSE.txt": "/MovieData/static/js/2.e7602c3c.chunk.js.LICENSE.txt",
+    "static/media/Arnold.4209ed7a.png": "/MovieData/static/media/Arnold.4209ed7a.png",
+    "static/media/camera.e3412a1d.png": "/MovieData/static/media/camera.e3412a1d.png",
+    "static/media/coraje.cb4a9b7d.png": "/MovieData/static/media/coraje.cb4a9b7d.png",
+    "static/media/harry.e9e491ca.png": "/MovieData/static/media/harry.e9e491ca.png",
+    "static/media/monkey.12c2f1fd.png": "/MovieData/static/media/monkey.12c2f1fd.png",
+    "static/media/wonder.4dd453e3.png": "/MovieData/static/media/wonder.4dd453e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0369bfee.js",
+    "static/js/2.e7602c3c.chunk.js",
+    "static/css/main.fb29642d.chunk.css",
+    "static/js/main.f6ac9cd5.chunk.js"
+  ]
+}
