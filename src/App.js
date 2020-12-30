@@ -82,7 +82,6 @@ function App() {
               <h3>Nombre de pelicula: </h3>
               <input type="text" className="browser-default custom-select" onChange={onNameChange} />
               <button class="btn btn-one" disabled={name.length<1} type="submit"><span>Buscar</span></button>
-              
             </form>
           </div>
 
