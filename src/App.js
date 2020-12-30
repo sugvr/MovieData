@@ -45,28 +45,40 @@ function App() {
 
   }
 
-
-
-  const renderBody = () => {
-    return movie.map(({ Title, Year, Type, Poster }) => {
-      return (
-
-        <>
-          <div class="advisor_thumb">
-            <img src={Poster} className="photo" alt="Foto de pelicula" />
-            <div class="single_advisor_details_info">
-              <h4>{Title}</h4>
-              <p class="designation">{Year}</p>
-              <p class="designation">{Type}</p>
-            </div>
-          </div>
-
-
-        </>
-
-      )
-    })
+  let renderBody;
+  if (movie) {
+    renderBody = movie.map(movie => {
+      return <div class="advisor_thumb">
+      <img src={movie.Poster} className="photo" alt="Foto de pelicula" />
+      <div class="single_advisor_details_info">
+        <h4>{movie.Title}</h4>
+        <p class="designation">{movie.Year}</p>
+        <p class="designation">{movie.Type}</p>
+      </div>
+    </div>
+    });
+  } else {
+    renderBody = "No se encuentra ningun resultado";
   }
+
+
+
+  // const renderBody = () => {
+  //   return movie.map(({ Title, Year, Type, Poster }) => {
+  //     return (
+  //       <>
+  //         <div class="advisor_thumb">
+  //           <img src={Poster} className="photo" alt="Foto de pelicula" />
+  //           <div class="single_advisor_details_info">
+  //             <h4>{Title}</h4>
+  //             <p class="designation">{Year}</p>
+  //             <p class="designation">{Type}</p>
+  //           </div>
+  //         </div>
+  //       </>
+  //     )
+  //   })
+  // }
 
   return (
     <>
@@ -106,7 +118,7 @@ function App() {
       <div class="container" id="data">
 
         <div class="single_advisor_profile wow fadeInUp">
-          {renderBody()}
+          {renderBody}
 
         </div>
 
